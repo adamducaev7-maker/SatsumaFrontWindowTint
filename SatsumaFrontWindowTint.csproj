@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SatsumaFrontWindowTint</AssemblyName>
+    <RootNamespace>SatsumaFrontWindowTint</RootNamespace>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>References\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>References\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="MSCLoader">
+      <HintPath>References\MSCLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="MscModApi">
+      <HintPath>References\MscModApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
