@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SatsumaFrontWindowTint
-          path: bin\Release\SatsumaFrontWindowTint.dll
+          path: bin\Release\net472\SatsumaFrontWindowTint.dll
