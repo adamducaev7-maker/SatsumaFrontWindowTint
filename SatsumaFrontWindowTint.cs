@@ -198,8 +198,6 @@ public class SatsumaFrontWindowTint : Mod
         if (m.HasProperty("_Mode"))
             m.SetFloat("_Mode", 3f);
 
-        if (m.HasProperty("_SrcBlend"))
-            m.SetInt("_SrcBlend", (int)BlendMode.SrcAlpha);
 
         if (m.HasProperty("_DstBlend"))
             m.SetInt("_DstBlend", (int)BlendMode.OneMinusSrcAlpha);
