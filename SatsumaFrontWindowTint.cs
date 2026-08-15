@@ -199,8 +199,6 @@ public class SatsumaFrontWindowTint : Mod
             m.SetFloat("_Mode", 3f);
 
 
-        if (m.HasProperty("_DstBlend"))
-            m.SetInt("_DstBlend", (int)BlendMode.OneMinusSrcAlpha);
 
         if (m.HasProperty("_ZWrite"))
             m.SetInt("_ZWrite", 0);
