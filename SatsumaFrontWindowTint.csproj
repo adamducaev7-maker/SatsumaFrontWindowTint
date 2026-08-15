@@ -4,21 +4,21 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>SatsumaFrontWindowTint</AssemblyName>
     <RootNamespace>SatsumaFrontWindowTint</RootNamespace>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>References\Assembly-CSharp.dll</HintPath>
+      <HintPath>Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>References\UnityEngine.dll</HintPath>
+      <HintPath>UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="MSCLoader">
-      <HintPath>References\MSCLoader.dll</HintPath>
+      <HintPath>MSCLoader.dll</HintPath>
     </Reference>
     <Reference Include="MscModApi">
-      <HintPath>References\MscModApi.dll</HintPath>
+      <HintPath>MscModApi.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
